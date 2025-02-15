@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elites Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column; /* Align caption below the image */
+            justify-content: space-between; /* Allow space between image and caption */
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .card img {
+            width: 100%; /* Image width to fill container */
+            height: 250px; /* Fixed height for images */
+            object-fit: cover; /* Ensures the image covers the entire frame */
+            border-radius: 15px; /* Rounded corners for the image */
+            border: 4px solid #ddd; /* Light gray border around the image */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card:hover img {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+        }
+        figcaption {
+            margin-top: 15px;
+            color: #333;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-transform: uppercase; /* Add a slight emphasis to the names */
+        }
+    </style>
+</head>
+<body>
+    <h1>Elites Gallery</h1>
+    <div class="gallery">
+        <figure class="card">
+            <img src="/Atete Nosa.jpg" alt="Atete Nosa">
+            <figcaption>Atete Nosa</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Francess Omoregie.jpg" alt="Francess Omoregie">
+            <figcaption>Francess Omoregie</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Osasu.jpg" alt="Erharuyi Osasu">
+            <figcaption>Erharuyi Osasu</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Tracy Ogieva.jpg" alt="Tracy Ogieva">
+            <figcaption>Tracy Ogieva</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Iyosayi Gabriel.jpg" alt="Iyosayi Gabriel">
+            <figcaption>Iyosayi Gabriel</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Goodnews Odeh.jpg" alt="Goodnews Odeh">
+            <figcaption>Goodnews Odeh</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Osemwengie.jpg" alt="Osemwengie">
+            <figcaption>Osemwengie</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Oyegun Emma.jpg" alt="Osemwengie">
+            <figcaption>Oyegun Emma</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Evbareke Bridget.jpg" alt="Osemwengie">
+            <figcaption>Evbareke Bridget</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Idemudia Nosa.jpg" alt="Osemwengie">
+            <figcaption>Idemudia Nosa</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Obaretin Nosa.jpg" alt="Osemwengie">
+            <figcaption>Obaretin Nosa</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Ese.jpg" alt="Osemwengie">
+            <figcaption>Ese</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Aghatise Violet.jpg" alt="Osemwengie">
+            <figcaption>Aghatise Violet</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="/Sandra Omorogieva.jpg" alt="Osemwengie">
+            <figcaption>Sandra Omorogieva</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
